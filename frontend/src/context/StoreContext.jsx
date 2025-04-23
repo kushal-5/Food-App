@@ -43,6 +43,7 @@ const url = "http://localhost:4000";
 
     const fetchFoodList = async () => {
         const response = await axios.get(url + "/api/food/list");
+        console.log("Fetched food list:", response.data.data);
         setFoodList(response.data.data)
     }
 

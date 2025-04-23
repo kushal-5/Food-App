@@ -96,7 +96,7 @@ export const menu_list = [
         menu_image: menu_3
     },
     {
-        menu_name: "Sandwich",
+        menu_name: "Nepali Cuisine",
         menu_image: menu_4
     },
     {
@@ -111,7 +111,7 @@ export const menu_list = [
         menu_name: "Pasta",
         menu_image: menu_7
     },
-    {
+    { 
         menu_name: "Noodles",
         menu_image: menu_8
     }]
@@ -205,33 +205,33 @@ export const food_list = [
     },
     {
         _id: "13",
-        name: "Chicken Sandwich",
+        name: "Momo",
         image: food_13,
         price: 12,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Sandwich"
+        description: "Steamed dumplings filled with meat or vegetables, served with spicy tomato chutney",
+        category: "Nepali Cuisine"
     },
     {
         _id: "14",
-        name: "Vegan Sandwich",
+        name: "Dal Bhat",
         image: food_14,
         price: 18,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Sandwich"
+        description: "Traditional Nepali meal with lentil soup, rice, vegetables, and pickles",
+        category: "Nepali Cuisine"
     }, {
         _id: "15",
-        name: "Grilled Sandwich",
+        name: "Thukpa",
         image: food_15,
         price: 16,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Sandwich"
+        description: "Hearty noodle soup with vegetables and choice of meat",
+        category: "Nepali Cuisine"
     }, {
         _id: "16",
-        name: "Bread Sandwich",
+        name: "Sel Roti",
         image: food_16,
         price: 24,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Sandwich"
+        description: "Traditional Nepali sweet ring-shaped rice bread",
+        category: "Nepali Cuisine"
     }, {
         _id: "17",
         name: "Cup Cake",

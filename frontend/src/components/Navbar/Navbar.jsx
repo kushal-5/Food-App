@@ -18,6 +18,11 @@ const Navbar = ({ setShowLogin }) => {
       if (foodDisplaySection) {
         foodDisplaySection.scrollIntoView({ behavior: 'smooth' });
       }
+    } else if (menuItem === "Contact") {
+      const footerSection = document.getElementById('footer');
+      if (footerSection) {
+        footerSection.scrollIntoView({ behavior: 'smooth' });
+      }
     }
   };
 
@@ -52,7 +57,7 @@ const Navbar = ({ setShowLogin }) => {
           Mobile-App
         </li>
         <li
-          onClick={() => setMenu("Contact")}
+          onClick={() => handleMenuClick("Contact")}
           className={menu === "Contact" ? "active" : ""}
         >
           Contact
