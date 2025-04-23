@@ -1,39 +1,8 @@
 .navbar {
+    padding: 20px 0px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 2rem;
-    background-color: #ffffff;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.logo {
-    height: 40px;
-    width: auto;
-}
-
-.navbar-profile {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-}
-
-.profile-image {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    object-fit: cover;
-}
-
-.navbar-profile p {
-    margin: 0;
-    font-weight: 500;
-    color: #333;
-}
-
-.logo-link {
-    text-decoration: none;
-    display: block;
 }
 
 .navbar .logo {
@@ -59,13 +28,11 @@
     gap: 40px;
 }
 
-.navbar-search-icon {
-    position: relative;
-    cursor: pointer;
-    text-decoration: none;
+.navbar-search-icon{
+position: relative;
 }
 
-.navbar-search-icon .dot {
+.navbar-search-icon .dot{
     position: absolute;
     min-width: 10px;
     min-height: 10px;
@@ -90,38 +57,29 @@
     background: #fff4f2;
 }
 
-.navbar .active {
-    padding-bottom: 2px;
-    border-bottom: 2px solid #49557E;
-}
+.navbar-profile{
+    position: relative;
 
-.navbar li {
-    cursor: pointer;
 }
-
-.navbar-profile-dropdown {
+.navbar-profile-dropdown{
     position: absolute;
     display: none;
     right: 0;
     z-index: 1;
 }
-
-.navbar-profile-dropdown li {
+.navbar-profile-dropdown li{
     display: flex;
     align-items: center;
     gap: 10px;
     cursor: pointer;
 }
-
-.navbar-profile-dropdown img {
+.navbar-profile-dropdown img{
     width: 20px;
 }
-
-.navbar-profile-dropdown li:hover {
+.navbar-profile-dropdown li:hover{
     color: #FF4C24;
 }
-
-.navbar-profile:hover .navbar-profile-dropdown {
+.navbar-profile:hover .navbar-profile-dropdown{
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -132,13 +90,11 @@
     outline: 2px solid white;
     list-style: none;
 }
-
-.navbar-profile hr {
+.navbar-profile hr{
     background-color: gray;
     height: 1px;
     border: none;
 }
-
 @media (max-width:1050px) {
     .navbar .logo {
         width: 140px;

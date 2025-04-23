@@ -20,8 +20,8 @@ const Cart = () => {
           if (cartItems[item._id]>0) {
             return (<div key={index}>
               <div className="cart-items-title cart-items-item">
-                <img src={item.image} alt="" />
-                <p>{item.name}</p>
+              <img src={`http://localhost:4000/images/${item.image}`} alt={item.name} />
+              <p>{item.name}</p>
                 <p>${item.price}</p>
                 <div>{cartItems[item._id]}</div>
                 <p>${item.price*cartItems[item._id]}</p>
