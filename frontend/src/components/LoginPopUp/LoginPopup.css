@@ -66,3 +66,30 @@
     font-weight: 500;
     cursor: pointer;
 }
+
+.login-popup-options {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.admin-toggle {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.admin-toggle span {
+    color: #4169e1;
+    font-weight: 500;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
